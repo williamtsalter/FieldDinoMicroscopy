@@ -20,9 +20,11 @@ class FieldDinoApp(QMainWindow):
         self.setWindowTitle("FieldDino")
         self.setGeometry(100, 100, 1400, 800)
 
+        self.driver_path = 'C:\\Users\\txp168\\Documents\\DNX64\\DNX64.dll'
         self.microscope = None
         self.device_index = 0
         self.cv2_cam_index = 1
+
         self.camera = None
         self.led_state = False
         self.device_name = ""
@@ -222,7 +224,7 @@ class FieldDinoApp(QMainWindow):
 
     def start_microscope(self):
         try:
-            self.microscope = DNX64('C:\\Users\\txp168\\Documents\\DNX64\\DNX64.dll')
+            self.microscope = DNX64(self.driver_path)
             self.microscope.SetVideoDeviceIndex(self.device_index)
             self.microscope.Init()
             if not self.microscope.Init():

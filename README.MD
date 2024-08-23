@@ -5,11 +5,9 @@ phenotyping of large field trials. It is paired with YOLO object detection capab
 designed for field researchers who need to capture, analyze, and annotate microscopic images in real-time.
 ![image](https://github.com/user-attachments/assets/675d2f4f-eb6c-4b0a-a024-7fed5197da9b)
 
-| Original                                                                                               | Processed |
-|--------------------------------------------------------------------------------------------------------|-----------|
-| ![1_B_I_R1_20230907](https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8)  | ![1_B_I_R1_20230907](https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8)          |
-
-
+| Original                                                                                                                        | Processed                                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8" alt="1_B_I_R1_20230907" width="300"> | <img src="https://github.com/user-attachments/assets/9bf466e8-6526-40b2-a67f-41fb4833c510" alt="Processed Image"  width="300"> |
 
 ## Features
 
