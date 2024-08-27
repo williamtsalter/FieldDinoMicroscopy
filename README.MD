@@ -22,8 +22,10 @@ designed for field researchers who need to capture, analyze, and annotate micros
 - Python 3.7-3.11 
 - PyQt5
 - OpenCV (cv2)
+- Openpyxl
 - Ultralytics YOLO
 - Dino-Lite SDK (DNX64.dll)
+- .net Framework 3.5 (on Windows)
 
 ## Installation
 
