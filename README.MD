@@ -23,6 +23,7 @@ designed for field researchers who need to capture, analyze, and annotate micros
 - PyQt5
 - OpenCV (cv2)
 - Openpyxl
+- PyTorch CPU
 - Ultralytics YOLO
 - Dino-Lite SDK (DNX64.dll)
 - .net Framework 3.5 (on Windows)
@@ -35,9 +36,9 @@ designed for field researchers who need to capture, analyze, and annotate micros
    cd FieldDino
    ```
 
-2. Install the required Python packages:
+2. Install the required Python packages in the following order:
    ```
-   pip install PyQt5 opencv-python ultralytics
+   pip install requirements.txt
    ```
 
 3. Ensure the Dino-Lite SDK is installed and `DNX64.dll` is in the correct path (
