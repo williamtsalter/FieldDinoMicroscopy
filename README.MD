@@ -19,7 +19,7 @@ designed for field researchers who need to capture, analyze, and annotate micros
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.7-3.11 
 - PyQt5
 - OpenCV (cv2)
 - Ultralytics YOLO
