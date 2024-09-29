@@ -30,9 +30,20 @@ After 3D printing, you will need a few extra items for assembly that you can get
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## Requirements (also included in a requirements file)
+## Getting started
 
-- Python 3.7-3.11 
+1. Install Python 3.7-3.11.
+
+2. Add Python to PATH
+    - Find the location of the Python executable file that you just installed, it will likely be in the following location:
+    ```
+    C:\Users\<USER>\AppData\Local\Programs\Python
+    ```
+    - Open Windows Control Panel -> User Accounts -> Change my Environment Variables
+    - Inside the top window labeled 'User Variables' select 'Path' and edit
+    - Select 'Browse' and navigate to the location above and select 'ok'
+    - Select 'Move Down' and repeat step 3 for C:\python27\Scripts
+
 - PyQt5
 - OpenCV (cv2)
 - Openpyxl
