@@ -2,7 +2,7 @@
 
 FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from a CSV file based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
 
-We also include the 3D print files for a leaf-clip style microscope mount. The leaf clip eases focussing on leaves in the field, speeding up image capture and standardising image brightness and focus across large data collection campaigns.
+We also include the 3D print files and instructions for a leaf-clip style microscope mount. The leaf clip eases focussing on leaves in the field, speeding up image capture and standardising image brightness and scale across large data collection campaigns.
 
 # 3D printed leaf clip microscope mount
 
