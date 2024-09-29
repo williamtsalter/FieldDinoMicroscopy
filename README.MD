@@ -1,8 +1,21 @@
 # FieldDino
 
-FieldDino is a Python-based application that enables the simple control of Dino-LITE microscopes in the field, for fast
-phenotyping of large field trials. It is paired with YOLO object detection capabilities. FieldDino is 
-designed for field researchers who need to capture, analyze, and annotate microscopic images in real-time.
+FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from a CSV file based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
+
+We also include the 3D print files for a leaf-clip style microscope mount. The leaf clip eases focussing on leaves in the field, speeding up image capture and standardising image brightness and focus across large data collection campaigns.
+
+# 3D printed leaf clip microscope mount
+
+The leaf clip should be 3D printed in two parts, the handle and the mount. The mount should be printed in white but colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve adhesion.
+
+After 3D printing, you will need a few extra items for assembly that you can get from a hardware store:
+- 3 mm thick EVA foam
+- 38.1 mm x 6 mm extension spring
+- 1 x 40 mm M5 bolt, 1 x nut and 3 x washers
+- Threadlock to stop nut from coming loose during use
+
+# FieldDino Python app
+
 ![image](https://github.com/user-attachments/assets/675d2f4f-eb6c-4b0a-a024-7fed5197da9b)
 
 | Original                                                                                                                        | Processed                                                                                                                      |
@@ -17,7 +30,7 @@ designed for field researchers who need to capture, analyze, and annotate micros
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## Requirements
+## Requirements (also included in a requirements file)
 
 - Python 3.7-3.11 
 - PyQt5
