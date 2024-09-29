@@ -4,9 +4,17 @@ FieldDino is a Python-based application that enables simple control of Dino-LITE
 
 We also include the 3D print files and instructions for a leaf-clip style microscope mount. The leaf clip eases focussing on leaves in the field, speeding up image capture and standardising image brightness and scale across large data collection campaigns.
 
+
+***Photo-placeholder***
+
+
 # 3D printed leaf clip microscope mount
 
 The leaf clip should be 3D printed in two parts, the handle and the mount. The mount should be printed in white but colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve adhesion.
+
+| 3D print files | second cell | ------------- | ------------- ||![Leaf clip](https://media.github.sydney.edu.au/user/5402/files/c8961e1d-9aa7-4e52-bae7-caa1de9b325b)|
+![image](https://media.github.sydney.edu.au/user/5402/files/36536d63-45a8-4553-a85f-f8a076c2ff67)|
+
 
 After 3D printing, you will need a few extra items for assembly that you can get from a hardware store:
 - 3 mm thick EVA foam
