@@ -62,14 +62,16 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 
 3. Open a new command prompt (Windows Key + R, cmd.exe)
 
-4. Install virtualenv through the command pip install virtualenv
+4. Install virtualenv through the command ```pip install virtualenv```
 
-5. Check that virtualenv is installed through the command pip --version
+5. Check that virtualenv is installed through the command ```pip --version```
 
-6. Install virtualenvwrapper-win through the command pip install virtualenvwrapper-win
+6. Install virtualenvwrapper-win through the command ```pip install virtualenvwrapper-win```
 
-## Test functionality of virtual environments
-1. Create a test environment with the command mkvirtualenv example, and this will make a folder called Envs in your user directory
+7. Add virtualenv
+
+### Test functionality of virtual environments
+1. Create a test environment with the command ```mkvirtualenv FieldDino```. Note this will make a folder called Envs in your user directory
 
 2. Change your python directories to a project folder in command prompt and run setprojectdir to set that as your development folder.
 
