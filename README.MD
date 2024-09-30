@@ -8,7 +8,8 @@ We also include the 3D print files and instructions for a leaf-clip style micros
 
 ***Note that the FieldDino leaf clip and software were designed to work with the Dino-Lite AM7515 series of microscopes, however, should also work with other microscopes in the Dino-Lite range with minimal modifications.***
 
-# 3D printed leaf clip microscope mount
+<details>
+  <summary><h1 style="font-size:10vw">3D printed leaf clip microscope mount</h1></summary> 
 
 The leaf clip should be 3D printed in two parts, the handle and the microscope mount/trigger. Note that we have provided different mount files depending on the magnification of your microscope. The mount should be printed in white (to diffuse the microscope LEDs) whilst the colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve bed adhesion. We also recommend printing using fine (0.12 mm layers). After 3D printing, remove all support material and clean up print if needed using sandpaper.
 
@@ -31,9 +32,10 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 |3. Stick gasket foam to the handle and secure spring in place |![step 3](https://media.github.sydney.edu.au/user/5402/files/2ddd63a9-c18a-4757-aa2a-d3331ead39bc)|
 |4. Insert microscope into mount and twist to lock in place | ![step 4](https://media.github.sydney.edu.au/user/5402/files/5a51bb9f-d8c9-4081-94bd-21f1d1298104)|
 |5. Tape around transparent plastic and sides of mount cap with two layers of black electrical tape | ![step 5](https://media.github.sydney.edu.au/user/5402/files/7d3078b7-16d1-4eee-b6dd-ec7ed80af873)|
+</details/>
 
-
-# FieldDino Python app
+<details>
+  <summary><h1 style="font-size:10vw">FieldDino Python app</h1></summary> 
 
 ![FieldDino App 1](https://media.github.sydney.edu.au/user/5402/files/f4820bfe-e144-40e0-9e86-57952b2b31e1)
 
@@ -163,18 +165,28 @@ We are now ready to install required packages for FieldDino using a requirements
 - If you still struggle to connect the microscope, you can open the app.py file and edit lines 63 and 64 changing the ```self.device_index``` and ```self.cv2_cam_index``` variable. These tend to depend on the number of cameras embedded or connected to the computer. You can run ```python cameralist.py``` to identify connected cameras and microscopes.
 - If the YOLO model fails to load, check the file path and ensure it's a compatible `.pt` file.
 - For issues with image capture, verify that the save directory exists and is writable.
+        
+</details/>
 
-## Contributing
+<details>
+  <summary><h1 style="font-size:10vw">Contributing to FieldDino</h1></summary>
 
 Contributions to FieldDino are welcome! Please fork the repository and submit a pull request with your improvements.
 
-## License
-h
+</details> 
+
+<details>
+  <summary><h1 style="font-size:10vw">License</h1></summary>
+
 [MIT License](LICENSE)
 
-# References
-Developed with the help of Anthropic Claude.
+</details>
+
+<details>
+  <summary><h1 style="font-size:10vw">References and credits</h1></summary>        
 
 Icon Source:
 <a href="https://www.flaticon.com/free-icons/jurassic" title="jurassic icons">Jurassic icons created by Marz Gallery -
 Flaticon</a>
+        
+</details>
