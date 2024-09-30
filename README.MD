@@ -46,7 +46,7 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## Prerequisites (Windows)
+## FieldDino App Prerequisites (Windows)
 
 ### Python installation
 1. Install Python version 3.7-3.10 (https://www.python.org/)
@@ -114,21 +114,14 @@ We are now ready to install required packages for FieldDino using a requirements
 
 2. Create a virtual environment for FieldDino using the command ```mkvirtualenv FieldDino```. To open this when you want to use the app, use the command ```workon FieldDino```
 
-3. Install Pytorch
-   ```
-   pip3 install torch torchvision torchaudio
-   ```
-
-4. Install remaining packages from requirements file:
+3. Install required Python packages from requirements file:
    ```
    pip install -r requirements.txt
    ```
 4. Place your YOLO model file (`.pt`) in the project directory or any accessible location.
 
-### Dino-Lite SDK
-Access to the Dino-Lite SDK can be requested through the official [Dino Lite website](https://www.dino-lite.com/download06.php).
 
-## Usage
+## FieldDino App Usage
 
 1. Start the application:
    ```
