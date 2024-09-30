@@ -114,7 +114,12 @@ We are now ready to install required packages for FieldDino using a requirements
 
 2. Create a virtual environment for FieldDino using the command ```mkvirtualenv FieldDino```. To open this when you want to use the app, use the command ```workon FieldDino```
 
-3. Install the required Python packages in the following order:
+3. Install Pytorch
+   ```
+   pip3 install torch torchvision torchaudio
+   ```
+
+4. Install remaining packages from requirements file:
    ```
    pip install -r requirements.txt
    ```
