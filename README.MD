@@ -46,54 +46,69 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## Getting started (Windows)
+## Prerequisites (Windows)
 
-1. Install Python version 3.7-3.11 (https://www.python.org/)
+### Python installation
+    1. Install Python version 3.7-3.11 (https://www.python.org/)
 
-2. After installation add Python to PATH
-    - Find the location of the Python executable file that you just installed, it will likely be in the following location:
+    2. Find the location of the Python executable file that you just installed, it will likely be in the following location:
         ```
-        C:\Users\<USER>\AppData\Local\Programs\Python[version]
+        C:\Users\<USER>\AppData\Local\Programs\Python<version>
         ```
-    - Open Windows Control Panel -> User Accounts -> Change my Environment Variables
-    - Inside the top window labeled 'User Variables' select 'Path' and edit
-    - Select 'Browse' and navigate to the location above and select 'ok'
-    - Select 'Move Down' and repeat step 3 for C:\python[version]\Scripts
+    3. Open Windows Settings -> System -> About -> Advanced System Settings -> Environment Variables
+    
+    4. Inside the upper window labeled 'User Variables' select 'Path' and edit
+    
+    5. Select 'New' and add file directory for the location above
+    
+    6. Select 'New' and repeat previous step for the Scripts folder within the Python<version> directory
 
-3. Open a new command prompt (Windows Key + R, cmd.exe)
+### Virtualenv install and test
+    1. Open a new command prompt (Windows Key + R, cmd.exe)
 
-4. Install virtualenv through the command ```pip install virtualenv```
+    2. Install virtualenv through the command ```pip install virtualenv```
 
-5. Check that virtualenv is installed through the command ```pip --version```
+    3. Check that virtualenv is installed through the command ```pip list```
 
-6. Install virtualenvwrapper-win through the command ```pip install virtualenvwrapper-win```
+    4. Install virtualenvwrapper-win through the command ```pip install virtualenvwrapper-win```
 
-7. Add virtualenv
+    5. Create a test environment with the command ```mkvirtualenv FieldDino```. Note this will make a folder called Envs in your user directory
 
-### Test functionality of virtual environments
-1. Create a test environment with the command ```mkvirtualenv FieldDino```. Note this will make a folder called Envs in your user directory
+    6. To leave an environment use ```deactivate```
 
-2. Change your python directories to a project folder in command prompt and run setprojectdir to set that as your development folder.
+    7. You can enter an environment by using ```workon <environmentname>``` and from there can invoke package installations like ```pip install```
 
-3. To leave an environment use deactivate
+    9. To completely delete an environment make sure you leave the environment first and use ```rmvirtualenv <environmentname>``` to delete the environment
 
-4. You can enter an environment by using workon example and from there can invoke package installations like pip install flask
+### Install Git for Windows
+    1. In a browser window navigate to the [Git download page](https://git-scm.com/downloads/win), download the standalone installer
+    
+    2. Open the installer executable and follow the on screen prompts
+    
+### Install .net Framework 3.5   
+    1. In a browser window navigate to the [Microsoft Download Centre](https://www.microsoft.com/en-au/download/details.aspx?id=21) to download the installation file
 
-5. To completely delete an environment make sure you leave the environment first and use rmvirtualenv example to delete the environment
-
+    2. Run the installer executable and follow on screen prompts
+    
+### Request and install DinoLite SDK
+    1. In a browser window navigate to the [Dino-Lite software page](https://www.dino-lite.com/download06.php) and request the SDK license agreement
+    
+    2. Once you receive a link to download the SDK, download and unzip the folder, then run the installer executable and follow on screen prompts
+    
+    3. Ensure the Dino-Lite SDK is installed in the correct location, noting that `DNX64.dll` should be in `C:\Program Files\DNX64\DNX64.dll`.
+    
+## FieldDino app installation
+    
+We are now ready to install required packages for FieldDino using a requirements file. For reference, the required packages include:
 - PyQt5
-- OpenCV (cv2)
+- OpenCV
 - Openpyxl
 - PyTorch CPU
 - Ultralytics YOLO
-- Dino-Lite SDK (DNX64.dll)
-- .net Framework 3.5 (on Windows)
-
-## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/geezacolleman/FieldDino.git
+   git clone https://github.com/williamtsalter/FieldDino.git
    cd FieldDino
    ```
 
