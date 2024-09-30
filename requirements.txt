@@ -35,9 +35,9 @@ scipy==1.14.1
 seaborn==0.13.2
 six==1.16.0
 sympy==1.13.1
-torch==2.5.0+cpu
-torchaudio==2.4.0+cpu
-torchvision==0.20.0.dev20240826+cpu
+torch==2.4.1+cpu
+torchaudio==2.4.1+cpu
+torchvision==0.19.1+cpu
 tqdm==4.66.5
 typing_extensions==4.12.2
 tzdata==2024.1
