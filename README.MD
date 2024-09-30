@@ -8,23 +8,24 @@ We also include the 3D print files and instructions for a leaf-clip style micros
 ***Photo-placeholder***
 
 
+***Note that the FieldDino leaf clip and software were designed to work with the Dino-Lite AM7515 series of microscopes, however, should also work with other microscopes in the Dino-Lite range with minimal modifications.***
+
 # 3D printed leaf clip microscope mount
 
-The leaf clip should be 3D printed in two parts, the handle and the mount. The mount should be printed in white (to diffuse the microscope LEDs) but the colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve adhesion. We also recommend using fine (0.12 mm layers).
+The leaf clip should be 3D printed in two parts, the handle and the microscope mount/trigger. Note that we have provided different mount files depending on the magnification of your microscope. The mount should be printed in white (to diffuse the microscope LEDs) whilst the colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve bed adhesion. We also recommend printing using fine (0.12 mm layers). After 3D printing, remove all support material and clean up print if needed using sandpaper.
 
 |![Leaf clip](https://media.github.sydney.edu.au/user/5402/files/c8961e1d-9aa7-4e52-bae7-caa1de9b325b)|![image](https://media.github.sydney.edu.au/user/5402/files/36536d63-45a8-4553-a85f-f8a076c2ff67)|
 |------------- | ------------- |
 
-
-After 3D printing, remove all support material and clean up print if needed using sandpaper.
-
-To assemble you will need a few extra items that you can get from a hardware store:
+To assemble the leaf clip you will need some additional items that you can get from a hardware store:
 - 3 mm thick EVA foam
 - 38.1 mm x 6 mm extension spring
-- 1 x 40 mm M5 bolt, 1 x nut and 3 x washers
+- 1 x 40 mm M5 bolt, 1 x nut and washers
 - Threadlock to stop nut from coming loose during use
 
+Once you have all the parts above, you can assemble the leaf clip. 
 
+1. Slot the mount into the handle. If you need, you can add washers
 
 
 # FieldDino Python app
