@@ -1,12 +1,10 @@
 # FieldDino
 
+![Leaf Clip   FieldDino App - 3](https://media.github.sydney.edu.au/user/5402/files/51868d3a-cdb2-4b70-a5eb-a78003cd75b8)
+
 FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from a CSV file based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
 
 We also include the 3D print files and instructions for a leaf-clip style microscope mount. We have designed the leaf clip to ease focussing in the field, speeding up image capture and standardising image brightness and scale across large data collection campaigns.
-
-
-***Photo-placeholder***
-
 
 ***Note that the FieldDino leaf clip and software were designed to work with the Dino-Lite AM7515 series of microscopes, however, should also work with other microscopes in the Dino-Lite range with minimal modifications.***
 
@@ -37,11 +35,8 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 
 # FieldDino Python app
 
-![image](https://github.com/user-attachments/assets/675d2f4f-eb6c-4b0a-a024-7fed5197da9b)
+![FieldDino App 1](https://media.github.sydney.edu.au/user/5402/files/f4820bfe-e144-40e0-9e86-57952b2b31e1)
 
-| Original                                                                                                                        | Processed                                                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8" alt="1_B_I_R1_20230907" width="300"> | <img src="https://github.com/user-attachments/assets/9bf466e8-6526-40b2-a67f-41fb4833c510" alt="Processed Image"  width="300"> |
 
 ## Features
 
@@ -113,6 +108,10 @@ Access to the Dino-Lite SDK can be requested through the official [Dino Lite web
     - Load a YOLO model using the "Load Model" button.
     - Set confidence and IOU thresholds.
     - Click "Run Model" to start object detection on the live feed.
+
+| Original                                                                                                                        | Processed                                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8" alt="1_B_I_R1_20230907" width="300"> | <img src="https://github.com/user-attachments/assets/9bf466e8-6526-40b2-a67f-41fb4833c510" alt="Processed Image"  width="300"> |
 
 5. **Static Image Analysis**:
     - Click "Load Image" to analyze a pre-captured image.
