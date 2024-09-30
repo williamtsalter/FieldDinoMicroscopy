@@ -125,7 +125,7 @@ We are now ready to install required packages for FieldDino using a requirements
         
 ## FieldDino App Usage
 
-1. Start the application:
+1. Once in the FieldDino virtual environment (```workon FieldDino```), start the application:
    ```
    python app.py
    ```
@@ -133,6 +133,7 @@ We are now ready to install required packages for FieldDino using a requirements
 2. **Microscope Control**:
     - Click "Start Microscope" to initialize the Dino-Lite microscope.
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
+    - Note that we have removed the ability to control axial illumination as it gave very harsh reflections.
 
 3. **Image Capture**:
     - Click "Capture Image" to save the current view and move to the next filename, if an Excel file has been uploaded.
@@ -159,7 +160,7 @@ We are now ready to install required packages for FieldDino using a requirements
 ## Troubleshooting
 
 - Ensure the Dino-Lite microscope is properly connected to the computer before starting the application. Note we have tested the app thoroughly with USB cable connections only, not the WI-FI DinoLite models.
-- If you still struggle to connect teh microscope, you can open the app.py file and edit the ```self.cv2_cam_index``` variable to 0 or 1. This tends to depend on the number of cameras embedded or connected to the computer.
+- If you still struggle to connect the microscope, you can open the app.py file and edit lines 63 and 64 changing the ```self.device_index``` and ```self.cv2_cam_index``` variable. These tend to depend on the number of cameras embedded or connected to the computer. You can run ```python cameralist.py``` to identify connected cameras and microscopes.
 - If the YOLO model fails to load, check the file path and ensure it's a compatible `.pt` file.
 - For issues with image capture, verify that the save directory exists and is writable.
 
