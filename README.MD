@@ -118,9 +118,11 @@ We are now ready to install required packages for FieldDino using a requirements
    ```
    pip install -r requirements.txt
    ```
-4. Place your YOLO model file (`.pt`) in the project directory or any accessible location.
+4. If you want to run a model in real time, place your YOLO model file (`.pt`) in the project directory or any accessible location.
 
-
+5. If you want to quickly run the app after install you can run the FieldDino.bat file. This batch file will open the FieldDino virtual environment then open the app. Note, you can also create a shortcut to this file to run from the Desktop.
+        
+        
 ## FieldDino App Usage
 
 1. Start the application:
@@ -156,7 +158,8 @@ We are now ready to install required packages for FieldDino using a requirements
 
 ## Troubleshooting
 
-- Ensure the Dino-Lite microscope is properly connected before starting the application.
+- Ensure the Dino-Lite microscope is properly connected to the computer before starting the application. Note we have tested the app thoroughly with USB cable connections only, not the WI-FI DinoLite models.
+- If you still struggle to connect teh microscope, you can open the app.py file and edit the ```self.cv2_cam_index``` variable to 0 or 1. This tends to depend on the number of cameras embedded or connected to the computer.
 - If the YOLO model fails to load, check the file path and ensure it's a compatible `.pt` file.
 - For issues with image capture, verify that the save directory exists and is writable.
 
