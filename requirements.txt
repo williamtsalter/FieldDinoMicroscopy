@@ -1,4 +1,4 @@
-﻿certifi==2024.7.4
+certifi==2024.7.4
 charset-normalizer==3.3.2
 colorama==0.4.6
 contourpy==1.2.1
@@ -20,6 +20,7 @@ opencv-python==4.10.0.84
 openpyxl==3.1.5
 packaging==24.1
 pandas==2.2.2
+pathvalidate==3.2.1
 Pillow==9.3.0
 psutil==6.0.0
 py-cpuinfo==9.0.0
