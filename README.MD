@@ -72,11 +72,11 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 
 4. Install virtualenvwrapper-win through the command ```pip install virtualenvwrapper-win```
 
-5. Create a test environment with the command ```mkvirtualenv FieldDino```. Note this will make a folder called Envs in your user directory
+5. Create a test environment with the command ```mkvirtualenv testenv```. Note this will also make a folder called Envs in your user directory
 
 6. To leave an environment use ```deactivate```
 
-7. You can enter an environment by using ```workon <environmentname>``` and from there can invoke package installations like ```pip install```
+7. You can re-enter an environment by using ```workon <environmentname>``` and from there can invoke package installations like ```pip install```
 
 8. To completely delete an environment make sure you leave the environment first and use ```rmvirtualenv <environmentname>``` to delete the environment
 
@@ -106,18 +106,20 @@ We are now ready to install required packages for FieldDino using a requirements
 - PyTorch CPU
 - Ultralytics YOLO
 
-1. Clone the repository:
+1. Open a new command prompt and clone the GitHub repository:
    ```
    git clone https://github.com/williamtsalter/FieldDino.git
    cd FieldDino
    ```
 
-2. Install the required Python packages in the following order:
+2. Create a virtual environment for FieldDino using the command ```mkvirtualenv FieldDino```. To open this when you want to use the app, use the command ```workon FieldDino```
+
+3. Install the required Python packages in the following order:
    ```
    pip install requirements.txt
    ```
 
-3. Ensure the Dino-Lite SDK is installed and `DNX64.dll` is in the correct path (
+4. Ensure the Dino-Lite SDK is installed and `DNX64.dll` is in the correct path (
    usually `C:\Program Files\DNX64\DNX64.dll`).
 
 4. Place your YOLO model file (`.pt`) in the project directory or any accessible location.
