@@ -32,10 +32,11 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 |3. Stick gasket foam to the handle and secure spring in place |![step 3](https://media.github.sydney.edu.au/user/5402/files/2ddd63a9-c18a-4757-aa2a-d3331ead39bc)|
 |4. Insert microscope into mount and twist to lock in place | ![step 4](https://media.github.sydney.edu.au/user/5402/files/5a51bb9f-d8c9-4081-94bd-21f1d1298104)|
 |5. Tape around transparent plastic and sides of mount cap with two layers of black electrical tape | ![step 5](https://media.github.sydney.edu.au/user/5402/files/7d3078b7-16d1-4eee-b6dd-ec7ed80af873)|
-</details/>
 
+</details/>
+  
 <details>
-  <summary><h1 style="font-size:10vw">FieldDino Python app</h1></summary> 
+  <summary><h1 style="font-size:10vw">FieldDino Python app <em>(Windows only for now)</em></h1></summary> 
 
 ![FieldDino App 1](https://media.github.sydney.edu.au/user/5402/files/f4820bfe-e144-40e0-9e86-57952b2b31e1)
 
@@ -48,9 +49,12 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## FieldDino App Prerequisites (Windows)
+<details>
+  <summary><h2 style="font-size:7vw">FieldDino App Prerequisites</h2></summary> 
 
-### Python installation
+<details>
+  <summary><h3 style="font-size:5vw">Python installation</h3></summary> 
+
 1. Install Python version 3.7-3.10 (https://www.python.org/)
 
 2. Find the location of the Python executable file that you just installed, it will likely be in the following location:
@@ -65,7 +69,10 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
     
 6. Select 'New' and repeat previous step for the Scripts folder within the Python<version> directory
 
-### Virtualenv install and test
+</details>
+
+<details>
+  <summary><h3 style="font-size:5vw">Virtualenv install and test</h3></summary> 
 1. Open a new command prompt (Windows Key + R, cmd.exe)
 
 2. Install virtualenv through the command ```pip install virtualenv```
@@ -82,25 +89,38 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 
 8. To completely delete an environment make sure you leave the environment first and use ```rmvirtualenv <environmentname>``` to delete the environment
 
-### Install Git for Windows
+</details>
+  
+<details>
+  <summary><h3 style="font-size:5vw">Install Git for Windows</h3></summary> 
 1. In a browser window navigate to the [Git download page](https://git-scm.com/downloads/win), download the standalone installer
     
 2. Open the installer executable and follow the on screen prompts
-    
-### Install .net Framework 3.5   
+
+</details>
+
+<details>
+  <summary><h3 style="font-size:5vw">Install .net Framework 3.5</h3></summary> 
 1. In a browser window navigate to the [Microsoft Download Centre](https://www.microsoft.com/en-au/download/details.aspx?id=21) to download the installation file
 
 2. Run the installer executable and follow on screen prompts
-    
-### Request and install DinoLite SDK
+
+</details>
+
+<details>
+  <summary><h3 style="font-size:5vw">Request and install DinoLite SDK</h3></summary> 
 1. In a browser window navigate to the [Dino-Lite software page](https://www.dino-lite.com/download06.php) and request the SDK license agreement
     
 2. Once you receive a link to download the SDK, download and unzip the folder, then run the installer executable and follow on screen prompts
     
 3. Ensure the Dino-Lite SDK is installed in the correct location, noting that `DNX64.dll` should be in `C:\Program Files\DNX64\DNX64.dll`.
-    
-## FieldDino app installation
-    
+
+</details>
+</details>  
+
+<details>
+  <summary><h2 style="font-size:7vw">FieldDino app installation</h2></summary> 
+
 We are now ready to install required packages for FieldDino using a requirements file. For reference, the required packages include:
 - PyQt5
 - OpenCV
@@ -124,9 +144,10 @@ We are now ready to install required packages for FieldDino using a requirements
 
 5. If you want to quickly run the app after install you can run the FieldDino.bat file. This batch file will open the FieldDino virtual environment then open the app. Note, you can also create a shortcut to this file to run from the Desktop.
         
-        
-## FieldDino App Usage
+</details>
 
+<details>
+  <summary><h2 style="font-size:7vw">FieldDino app usage</h2></summary> 
 1. Once in the FieldDino virtual environment (```workon FieldDino```), start the application:
    ```
    python app.py
@@ -159,14 +180,17 @@ We are now ready to install required packages for FieldDino using a requirements
     - Set the save directory for captured images.
     - Adjust model parameters in the "YOLO Model Settings" section.
 
-## Troubleshooting
+</details>
 
+<details>
+  <summary><h2 style="font-size:7vw">FieldDino app troubleshooting</h2></summary> 
 - Ensure the Dino-Lite microscope is properly connected to the computer before starting the application. Note we have tested the app thoroughly with USB cable connections only, not the WI-FI DinoLite models.
 - If you still struggle to connect the microscope, you can open the app.py file and edit lines 63 and 64 changing the ```self.device_index``` and ```self.cv2_cam_index``` variable. These tend to depend on the number of cameras embedded or connected to the computer. You can run ```python cameralist.py``` to identify connected cameras and microscopes.
 - If the YOLO model fails to load, check the file path and ensure it's a compatible `.pt` file.
 - For issues with image capture, verify that the save directory exists and is writable.
         
-</details/>
+</details>
+</details>
 
 <details>
   <summary><h1 style="font-size:10vw">Contributing to FieldDino</h1></summary>
