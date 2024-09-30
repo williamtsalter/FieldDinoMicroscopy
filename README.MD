@@ -50,7 +50,7 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
 <details>
-  <summary><h2 style="font-size:7vw">FieldDino App Prerequisites</h2></summary> 
+  <summary><h2 style="font-size:7vw">FieldDino app prerequisites</h2></summary> 
 
 <details>
   <summary><h3 style="font-size:5vw">Python installation</h3></summary> 
@@ -152,7 +152,6 @@ We are now ready to install required packages for FieldDino using a requirements
    ```
    python app.py
    ```
-
 2. **Microscope Control**:
     - Click "Start Microscope" to initialize the Dino-Lite microscope.
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
