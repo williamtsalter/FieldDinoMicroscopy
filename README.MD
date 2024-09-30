@@ -157,11 +157,16 @@ We are now ready to install required packages for FieldDino using a requirements
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
     - Note that we have removed the ability to control axial illumination as it gave very harsh reflections.
 
-3. **Image Capture**:
+3. Custom filename loading from Excel or CSV file
+    - Select browse to identify an Excel file containing filenames in a column
+    - Click read to load in column names, select the column containing filenames
+    - Note, if you capture an image you need to replace (e.g., out of focus, captured by accident) you can press back to return to the previous filename in the column
+  
+4. **Image Capture**:
     - Click "Capture Image" to save the current view and move to the next filename, if an Excel file has been uploaded.
     - Set the save directory and customize filename prefixes in the settings.
 
-4. **YOLO Model Integration**:
+5. **YOLO Model Integration**:
     - Load a YOLO model using the "Load Model" button.
     - Set confidence and IOU thresholds.
     - Click "Run Model" to start object detection on the live feed.
@@ -170,11 +175,11 @@ We are now ready to install required packages for FieldDino using a requirements
 |---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/user-attachments/assets/d2232762-e3fc-4608-86be-e515e66986c8" alt="1_B_I_R1_20230907" width="300"> | <img src="https://github.com/user-attachments/assets/9bf466e8-6526-40b2-a67f-41fb4833c510" alt="Processed Image"  width="300"> |
 
-5. **Static Image Analysis**:
+6. **Static Image Analysis**:
     - Click "Load Image" to analyze a pre-captured image.
     - Run the YOLO model on the loaded image for object detection.
 
-6. **Settings**:
+7. **Settings**:
     - Customize file naming conventions in the "File Naming" section.
     - Set the save directory for captured images.
     - Adjust model parameters in the "YOLO Model Settings" section.
