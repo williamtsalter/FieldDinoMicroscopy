@@ -10,17 +10,22 @@ We also include the 3D print files and instructions for a leaf-clip style micros
 
 # 3D printed leaf clip microscope mount
 
-The leaf clip should be 3D printed in two parts, the handle and the mount. The mount should be printed in white but colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve adhesion.
+The leaf clip should be 3D printed in two parts, the handle and the mount. The mount should be printed in white (to diffuse the microscope LEDs) but the colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve adhesion. We also recommend using fine (0.12 mm layers).
 
-| 3D print files | second cell | ------------- | ------------- ||![Leaf clip](https://media.github.sydney.edu.au/user/5402/files/c8961e1d-9aa7-4e52-bae7-caa1de9b325b)|
-![image](https://media.github.sydney.edu.au/user/5402/files/36536d63-45a8-4553-a85f-f8a076c2ff67)|
+|![Leaf clip](https://media.github.sydney.edu.au/user/5402/files/c8961e1d-9aa7-4e52-bae7-caa1de9b325b)|![image](https://media.github.sydney.edu.au/user/5402/files/36536d63-45a8-4553-a85f-f8a076c2ff67)|
+|------------- | ------------- |
 
 
-After 3D printing, you will need a few extra items for assembly that you can get from a hardware store:
+After 3D printing, remove all support material and clean up print if needed using sandpaper.
+
+To assemble you will need a few extra items that you can get from a hardware store:
 - 3 mm thick EVA foam
 - 38.1 mm x 6 mm extension spring
 - 1 x 40 mm M5 bolt, 1 x nut and 3 x washers
 - Threadlock to stop nut from coming loose during use
+
+
+
 
 # FieldDino Python app
 
