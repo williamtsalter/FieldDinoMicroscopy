@@ -46,19 +46,38 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 - **Customizable Settings**: Adjust microscope parameters like exposure and LED state.
 - **Flexible File Naming**: Customize image filenames with field-specific information.
 
-## Getting started
+## Getting started (Windows)
 
-1. Install Python 3.7-3.11.
+1. Install Python version 3.7-3.11 (https://www.python.org/)
 
-2. Add Python to PATH
+2. After installation add Python to PATH
     - Find the location of the Python executable file that you just installed, it will likely be in the following location:
-    ```
-    C:\Users\<USER>\AppData\Local\Programs\Python
-    ```
+        ```
+        C:\Users\<USER>\AppData\Local\Programs\Python[version]
+        ```
     - Open Windows Control Panel -> User Accounts -> Change my Environment Variables
     - Inside the top window labeled 'User Variables' select 'Path' and edit
     - Select 'Browse' and navigate to the location above and select 'ok'
-    - Select 'Move Down' and repeat step 3 for C:\python27\Scripts
+    - Select 'Move Down' and repeat step 3 for C:\python[version]\Scripts
+
+3. Open a new command prompt (Windows Key + R, cmd.exe)
+
+4. Install virtualenv through the command pip install virtualenv
+
+5. Check that virtualenv is installed through the command pip --version
+
+6. Install virtualenvwrapper-win through the command pip install virtualenvwrapper-win
+
+## Test functionality of virtual environments
+1. Create a test environment with the command mkvirtualenv example, and this will make a folder called Envs in your user directory
+
+2. Change your python directories to a project folder in command prompt and run setprojectdir to set that as your development folder.
+
+3. To leave an environment use deactivate
+
+4. You can enter an environment by using workon example and from there can invoke package installations like pip install flask
+
+5. To completely delete an environment make sure you leave the environment first and use rmvirtualenv example to delete the environment
 
 - PyQt5
 - OpenCV (cv2)
