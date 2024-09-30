@@ -49,7 +49,7 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 ## Prerequisites (Windows)
 
 ### Python installation
-1. Install Python version 3.7-3.11 (https://www.python.org/)
+1. Install Python version 3.7-3.10 (https://www.python.org/)
 
 2. Find the location of the Python executable file that you just installed, it will likely be in the following location:
         ```
@@ -116,12 +116,8 @@ We are now ready to install required packages for FieldDino using a requirements
 
 3. Install the required Python packages in the following order:
    ```
-   pip install requirements.txt
+   pip install -r requirements.txt
    ```
-
-4. Ensure the Dino-Lite SDK is installed and `DNX64.dll` is in the correct path (
-   usually `C:\Program Files\DNX64\DNX64.dll`).
-
 4. Place your YOLO model file (`.pt`) in the project directory or any accessible location.
 
 ### Dino-Lite SDK
