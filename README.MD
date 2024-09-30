@@ -22,10 +22,17 @@ To assemble the leaf clip you will need some additional items that you can get f
 - 38.1 mm x 6 mm extension spring
 - 1 x 40 mm M5 bolt, 1 x nut and washers
 - Threadlock to stop nut from coming loose during use
+- Black electrical tape
 
-Once you have all the parts above, you can assemble the leaf clip. 
+Once you have all the parts above, you can assemble the leaf clip as follows: 
 
-1. Slot the mount into the handle. If you need, you can add washers
+|Step | Image |
+|------------- | ------------- |
+|1. Slot the mount into the handle, lining up the bolt hole. You can use washers if there is a biut of a wiggle to the trigger |![step 1](https://media.github.sydney.edu.au/user/5402/files/082bb708-6649-4d78-88ae-3cd41b2da207)|
+|2. Using the bolt, nut and washers, secure the handle in place. Use threadlock to secure nut in place without overtightening | ![step 2](https://media.github.sydney.edu.au/user/5402/files/a5985327-bd77-4388-9233-f0070610e6c6)|
+|3. Stick gasket foam to the handle and secure spring in place |![step 3](https://media.github.sydney.edu.au/user/5402/files/2ddd63a9-c18a-4757-aa2a-d3331ead39bc)|
+|4. Insert microscope into mount and twist to lock in place | ![step 4](https://media.github.sydney.edu.au/user/5402/files/5a51bb9f-d8c9-4081-94bd-21f1d1298104)|
+|5. Tape around transparent plastic and sides of mount cap with two layers of black electrical tape | ![step 5](https://media.github.sydney.edu.au/user/5402/files/7d3078b7-16d1-4eee-b6dd-ec7ed80af873)|
 
 
 # FieldDino Python app
