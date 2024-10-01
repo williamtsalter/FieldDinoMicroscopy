@@ -2,7 +2,7 @@
 
 ![Leaf Clip   FieldDino App - 3](https://media.github.sydney.edu.au/user/5402/files/51868d3a-cdb2-4b70-a5eb-a78003cd75b8)
 
-FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from a CSV file based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
+FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from an Excel spreadsheet based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
 
 We also include the 3D print files and instructions for a leaf-clip style microscope mount. We have designed the leaf clip to ease focussing in the field, speeding up image capture and standardising image brightness and scale across large data collection campaigns.
 
@@ -31,7 +31,7 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 |2. Using the bolt, nut and washers, secure the handle in place. Use threadlock to secure nut in place without overtightening | ![step 2](https://media.github.sydney.edu.au/user/5402/files/a5985327-bd77-4388-9233-f0070610e6c6)|
 |3. Stick gasket foam to the handle and secure spring in place |![step 3](https://media.github.sydney.edu.au/user/5402/files/2ddd63a9-c18a-4757-aa2a-d3331ead39bc)|
 |4. Insert microscope into mount and twist to lock in place | ![step 4](https://media.github.sydney.edu.au/user/5402/files/5a51bb9f-d8c9-4081-94bd-21f1d1298104)|
-|5. Tape around transparent plastic and sides of mount cap with two layers of black electrical tape | ![step 5](https://media.github.sydney.edu.au/user/5402/files/7d3078b7-16d1-4eee-b6dd-ec7ed80af873)|
+|5. Tape around transparent plastic and sides of mount cap with three layers of black electrical tape | ![step 5](https://media.github.sydney.edu.au/user/5402/files/7d3078b7-16d1-4eee-b6dd-ec7ed80af873)|
 
 </details/>
   
@@ -153,6 +153,7 @@ We are now ready to install required packages for FieldDino using a requirements
    python app.py
    ```
 2. **Microscope Control**:
+    - Ensure micrscope is connected to the computer.
     - Click "Start Microscope" to initialize the Dino-Lite microscope.
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
     - Note that we have removed the ability to control axial illumination as it gave very harsh reflections.
@@ -163,8 +164,8 @@ We are now ready to install required packages for FieldDino using a requirements
     - Note, if you capture an image you need to replace (e.g., out of focus, captured by accident) you can press back to return to the previous filename in the column
   
 4. **Image Capture**:
-    - Click "Capture Image" to save the current view and move to the next filename, if an Excel file has been uploaded.
     - Set the save directory and customize filename prefixes in the settings.
+    - Click "Capture Image" to save the current view and move to the next filename, if an Excel file has been uploaded.
 
 5. **YOLO Model Integration**:
     - Load a YOLO model using the "Load Model" button.
