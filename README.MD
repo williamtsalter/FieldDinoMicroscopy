@@ -207,7 +207,7 @@ Contributions to FieldDino are welcome! Please fork the repository and submit a 
 <details>
   <summary><h1 style="font-size:10vw">License</h1></summary>
 
-[MIT License](LICENSE)
+[MIT Open Source License](https://opensource.org/license/mit)
 
 </details>
 
