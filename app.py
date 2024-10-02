@@ -17,7 +17,7 @@ from PyQt5.QtGui import QImage, QPixmap, QIcon, QFont
 from dnx64 import DNX64
 from ultralytics import YOLO
 
-buffer_size = 4
+buffer_size = 3
 
 class ThreadedCamera(QThread):
     change_pixmap_signal = pyqtSignal(np.ndarray)
