@@ -9,11 +9,11 @@ import math
 
 # Replace with your paths and model name
 model_path = "runs/segment/20240310_xlarge_239epochs/weights/best.pt"  # Update with your YOLOv8 model (.pt)
-image_dir = "D:/Kellie_glasshouse_stomata/JPEG"
-output_dir = "inference/output/HyperNUE_glasshouse/labels"
-ellipses_dir = "inference/output/HyperNUE_glasshouse/ellipses"
-allresults_excel_file_path = "inference/output/HyperNUE_glasshouse/allresults.xlsx"
-summaryresults_excel_file_path = "inference/output/HyperNUE_glasshouse/summaryresults.xlsx"
+image_dir = "images"
+output_dir = "inference/output/labels"
+ellipses_dir = "inference/output/ellipses"
+allresults_excel_file_path = "inference/output/allresults.xlsx"
+summaryresults_excel_file_path = "inference/output/summaryresults.xlsx"
 
 #Replace with scale of images (1 pixel = 0.677953691695135 µm)
 image_scale = 0.677953691695135
