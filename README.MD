@@ -68,6 +68,8 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 5. Select 'New' and add file directory for the location above
     
 6. Select 'New' and repeat previous step for the Scripts folder within the Python<version> directory
+  
+7. Restart computer
 
 </details>
 
@@ -96,6 +98,8 @@ Once you have all the parts above, you can assemble the leaf clip as follows:
 1. In a browser window navigate to the [Git download page](https://git-scm.com/downloads/win), download the standalone installer
     
 2. Open the installer executable and follow the on screen prompts
+  
+3. Restart computer
 
 </details>
 
