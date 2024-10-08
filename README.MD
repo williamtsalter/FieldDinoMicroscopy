@@ -1,6 +1,6 @@
 # FieldDino
 
-
+![FieldDino](https://github.com/williamtsalter/FieldDinoMicroscopy/blob/master/Images/Leaf%20Clip%20&%20FieldDino%20App%20-%203.jpeg)
 
 FieldDino is a Python-based application that enables simple control of Dino-LITE microscopes in the field, for fast phenotyping of large scale field trials. Filenames are loaded in from an Excel spreadsheet based upon the sampling order. The app is also capable of running live YOLO segmentation in the field for measurement of stomatal traits using pre-trained models. FieldDino is designed for field researchers who need to capture, analyse, and annotate microscopic images in real-time.
 
