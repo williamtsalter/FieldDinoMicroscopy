@@ -166,7 +166,7 @@ We are now ready to install required packages for FieldDino using a requirements
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
     - Note that we have removed the ability to control axial illumination as it gave very harsh reflections.
 
-3. Custom filename loading from Excel or CSV file
+3. **Custom filename loading from Excel or CSV file**
     - Select browse to identify an Excel file containing filenames in a column
     - Click read to load in column names, select the column containing filenames
     - Note, if you capture an image you need to replace (e.g., out of focus, captured by accident) you can press back to return to the previous filename in the column
