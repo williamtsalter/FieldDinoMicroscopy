@@ -6,7 +6,7 @@ FieldDino is a Python-based application that enables simple control of Dino-LITE
 
 We also include the 3D print files and instructions for a leaf-clip style microscope mount. We have designed the leaf clip to ease focussing in the field, speeding up image capture and standardising image brightness and scale across large data collection campaigns.
 
-***Note that the FieldDino leaf clip and software were designed to work with the Dino-Lite AM7515 series of microscopes, however, should also work with other microscopes in the Dino-Lite range with minimal modifications.***
+***Note that the FieldDino leaf clip and software were designed to work with the Dino-Lite AM7515 series of USB microscopes, however, should also work with other microscopes in the Dino-Lite range with modifications.***
 
 <details>
   <summary><h1 style="font-size:10vw">3D printed leaf clip microscope mount</h1></summary> 
