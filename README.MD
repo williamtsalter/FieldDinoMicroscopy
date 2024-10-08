@@ -193,6 +193,9 @@ We are now ready to install required packages for FieldDino using a requirements
     - Set the save directory for captured images.
     - Adjust model parameters in the "YOLO Model Settings" section.
 
+8. **Advanced settings**
+    - For even more control, you can edit the app.py file before starting the software.
+
 </details>
 
 <details>
