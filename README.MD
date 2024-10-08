@@ -152,12 +152,16 @@ We are now ready to install required packages for FieldDino using a requirements
 
 <details>
   <summary><h2 style="font-size:7vw">FieldDino app usage</h2></summary> 
-1. Once in the FieldDino virtual environment (```workon FieldDino```), start the application:
+
+1. Open a new command prompt, open the FieldDino virtual environment (```workon FieldDino```), navigate to the FieldDino folder (```cd FieldDino```) then start the application:
    ```
    python app.py
    ```
+    <summary><h3 style="font-size:5vw">OR</h2></summary>
+   Open the FieldDino folder in File Explorer, run the FieldDino.bat file. Note that you can also create a shortcut to this file on your desktop for quick and easy access.
+
 2. **Microscope Control**:
-    - Ensure micrscope is connected to the computer.
+    - Ensure microscope is connected to the computer.
     - Click "Start Microscope" to initialize the Dino-Lite microscope.
     - Adjust exposure and LED settings in the "Microscope Settings" panel.
     - Note that we have removed the ability to control axial illumination as it gave very harsh reflections.
