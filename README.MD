@@ -137,7 +137,6 @@ We are now ready to install required packages for FieldDino using a requirements
    git clone https://github.com/williamtsalter/FieldDino.git
    cd FieldDino
    ```
-
 2. Create a virtual environment for FieldDino using the command ```mkvirtualenv FieldDino```. To open this when you want to use the app, use the command ```workon FieldDino```
 
 3. Install required Python packages from requirements file:
@@ -157,7 +156,8 @@ We are now ready to install required packages for FieldDino using a requirements
    ```
    python app.py
    ```
-    <summary><h3 style="font-size:5vw">OR</h2></summary>
+   <em>OR</em>
+
    Open the FieldDino folder in File Explorer, run the FieldDino.bat file. Note that you can also create a shortcut to this file on your desktop for quick and easy access.
 
 2. **Microscope Control**:
