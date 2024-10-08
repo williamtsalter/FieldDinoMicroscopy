@@ -13,7 +13,7 @@ We also include the 3D print files and instructions for a leaf-clip style micros
 
 The leaf clip should be 3D printed in two parts, the handle and the microscope mount/trigger. Note that we have provided different mount files depending on the magnification of your microscope. The mount should be printed in white (to diffuse the microscope LEDs) whilst the colour of the handle does not matter so much. We recommend using PETG filament, using supports whilst printing and using glue on the print bed to improve bed adhesion. We also recommend printing using fine (0.12 mm layers). After 3D printing, remove all support material and clean up print if needed using sandpaper.
 
-|![Leaf clip](https://media.github.sydney.edu.au/user/5402/files/c8961e1d-9aa7-4e52-bae7-caa1de9b325b)|![image](https://media.github.sydney.edu.au/user/5402/files/36536d63-45a8-4553-a85f-f8a076c2ff67)|
+|![Leaf clip](https://github.com/williamtsalter/FieldDinoMicroscopy/blob/master/Images/leaf%20clip.png)|![3D print bed](https://github.com/williamtsalter/FieldDinoMicroscopy/blob/master/Images/Screenshot%202024-09-30%20094539.png)|
 |------------- | ------------- |
 
 To assemble the leaf clip you will need some additional items that you can get from a hardware store:
